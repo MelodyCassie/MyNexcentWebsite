@@ -1,13 +1,13 @@
 .mainCont{
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    justify-content: space-evenly;
 }
 
 .innerCont{
     display: flex;
     flex-direction: column;
-    padding-left: 8rem;
+    /*padding-left: 8rem;*/
 
 }
 
@@ -16,6 +16,7 @@
     font-weight: 500;
     font-size: 60px;
     line-height: 76px;
+    margin-bottom: 0;
 }
 
 .innerCont > p{
@@ -25,8 +26,8 @@
     line-height: 24px;
 
 }
-
-.heroImg > img{
-    width: 20rem;
-    height: 25rem;
+@media screen and (max-width: 760px) {
+    .heroImg{
+        display: none;
+    }
 }

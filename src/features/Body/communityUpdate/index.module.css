@@ -1,12 +1,21 @@
 .firstCont{
-   padding-left: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 .secondCont{
     display: flex;
-    gap: 0.43rem;
+    /*gap: 0.43rem;*/
+    justify-content: space-evenly;
 }
 
 .secondCont > img{
-    width: 25rem;
-    height: 16rem;
+    /*width: 25rem;*/
+    /*height: 16rem;*/
+}
+@media screen and (max-width: 760px) {
+    .secondCont {
+        flex-direction: column;
+    }
 }

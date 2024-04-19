@@ -34,8 +34,8 @@ const Customer = ()=>{
                     <img src={logo3} alt={" "}/>
                     <img src={logo4} alt={" "}/>
                     <img src={logo5} alt={" "}/>
-                    <h3>Meet all customers</h3>
-                    <img className={style.arrow} src={logos} alt={" "}/>
+                    {/*<h3>Meet all customers</h3>*/}
+                    {/*<img className={style.arrow} src={logos} alt={" "}/>*/}
                 </div>
 
             </div>
